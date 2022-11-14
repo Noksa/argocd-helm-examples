@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: {{ $.Release.Name }}
-          image: nginx
+          image: nginx:1.9-alpine
           imagePullPolicy: IfNotPresent
       restartPolicy: Always
   selector:
