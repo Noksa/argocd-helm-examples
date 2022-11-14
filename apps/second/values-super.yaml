@@ -1,2 +1,5 @@
 
-replicas: 2
+replicas: 3
+
+labels:
+  test: test
